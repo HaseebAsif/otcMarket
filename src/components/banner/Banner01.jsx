@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
-import img1 from "../../assets/images/layout/banner-01.png";
 import img_en from "../../assets/images/flags/us.jpg";
 import img_ko from "../../assets/images/flags/korea.png";
 import "./styles.scss";
@@ -101,7 +100,16 @@ function Banner01(props, handleChange) {
           </div>
           <div className="col-xl-6 col-md-12">
             <div className="banner__image">
-              <img src={img1} alt="Rockie" />
+              <video
+                loop
+                autoplay="true"
+                controls
+                style={{
+                  width: "-webkit-fill-available",
+                }}
+              >
+                <source src="./assets/movie2.mp4" type="video/mp4" />
+              </video>
             </div>
           </div>
         </div>

@@ -32,7 +32,7 @@ function Footer(props) {
       path: "#",
     },
     {
-      title: "Binanw Pay",
+      title: "Binance Pay",
       path: "#",
     },
   ]);
