@@ -108,7 +108,7 @@ function Banner01(props, handleChange) {
                   width: "-webkit-fill-available",
                 }}
               >
-                <source src="./assets/movie2.mp4" type="video/mp4" />
+                <source src="./assets/movie.mp4" type="video/mp4" />
               </video>
             </div>
           </div>
