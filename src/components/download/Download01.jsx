@@ -5,6 +5,7 @@ import img1 from "../../assets/images/icon/googleplay.png";
 import img2 from "../../assets/images/icon/appstore.png";
 import img3 from "../../assets/images/layout/download.png";
 import { useTranslation } from "react-i18next";
+import { ExternalLink } from "react-external-link";
 
 function Download01(props) {
   const { t } = useTranslation();
@@ -49,9 +50,9 @@ function Download01(props) {
                 ))}
               </ul>
               <div className="group-button">
-                <Link to="#">
+                <ExternalLink href="https://play.google.com/store/apps/details?id=com.otcwallet">
                   <img src={img1} alt="Rockie" />
-                </Link>
+                </ExternalLink>
                 <Link to="#">
                   <img src={img2} alt="Rockie" />
                 </Link>

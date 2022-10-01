@@ -108,6 +108,7 @@ function Banner01(props, handleChange) {
                   width: "-webkit-fill-available",
                   height: "max-content",
                 }}
+                poster="./assets/videothumbnail.jpeg"
               >
                 <source src="./assets/movie.mp4" type="video/mp4" />
               </video>
